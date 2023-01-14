@@ -1,0 +1,10 @@
+<main>
+  <div class="marca">CALCULADORA</div>
+  <tela-calculadora [display]="displayValue"></tela-calculadora>
+  <div class="botoes">
+    <botao-calculadora *ngFor="let valorBotao of valoresDosBotoes"
+      (emitter)="sendDataToSerivce($event)"
+      [valor]="valorBotao"
+    ></botao-calculadora>
+  </div>
+</main>

@@ -1,0 +1,19 @@
+.display{
+    display: block;
+    padding: 10px 50px;
+    height: 50px;
+    width: 90%;
+    margin: auto;
+    border: 2px gray solid;
+    background-color: rgb(139, 206, 76);
+    box-shadow: -1px 1px gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xxx-large;
+    font-variant: small-caps;
+    border-radius: 2%;
+}
+
+
+.display::selection{
+    user-select: none;
+}
